@@ -1,15 +1,18 @@
 
-## How to update Windows 11 license from home to education and activate Hyper-V
+# How to update Windows 11 license from home to education and activate Hyper-V
+You need a working (HAMK) student ID to activate the Windows license.
 
-### 1) Backup Windows license
-* Start Powershell or CMD 
+## Step 1 How to update Windows 11 license from home to education 
+
+### Backup Windows license
+* Start Powershell or Command Prompt (CMD) 
 * Run a command
 ```
 wmic path SoftwareLicensingService get OA3xOriginalProductKey
 ```
 * Save it in a safe place 😊
 
-### 2) Getting a new Windows 11 Education license
+### Getting a new Windows 11 Education license
 Log in to [Azure For Education](https://azureforeducation.microsoft.com/devtools) <br>
 Find Windows 11
 
@@ -25,12 +28,14 @@ Find Windows 11
 Windows license update will end in strange error THAT IS A NORMAL MICROSOFT WAY TO SAY **“JOB WELL DONE”**. 
 Restart your computer and Windows will activate new license in 1-3 minutes. 
 
-### 3) TMP / Enabling Virtualization in BIOS/UEFI
+## Step 2 Activate Hyper-V 
+
+### TMP / Enabling Virtualization in BIOS/UEFI
 - [How to enable virtualization? ](https://www.isumsoft.com/computer/enable-virtualization-technology-vt-x-in-bios-or-uefi.html) <br>
 - [How to access BIOS settings for different manufacturer? ](https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968)
 
 
-### 4) Activate Hyper-V
+### Activate Hyper-V
 
 * Start Powershell with Adminitrator rights (Run as Administrator)
 
@@ -48,7 +53,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 
 ### Hyper-V still not working?
 
-Forcing Hyper-v to start using Windows bootloader. 
+Forcing Hyper-V to start using Windows bootloader. 
 
 * Start Powershell with Adminitrator rights (Run as Administrator)
 
@@ -56,9 +61,9 @@ Forcing Hyper-v to start using Windows bootloader.
 bcdedit /set hypervisorlaunchtype auto
 ```
  
-### Need to shut down Hyper-v for compative gaming? 
+### Need to shut down Hyper-V for compative gaming? 
 
-Let's generate new Windows boot option for NO Hyper-v running. *You need to modify the command to match the bootloader tag*
+Let's generate new Windows boot option for NO Hyper-V running. *You need to modify the command to match the bootloader tag*
 
 ![hyper-v_off](assets/Windowsbootloader.png "Hyper-V off using bcdedit ")
 
