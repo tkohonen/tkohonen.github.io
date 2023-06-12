@@ -2,7 +2,7 @@
 # How to update Windows 11 license from home to education and activate Hyper-V
 You need a working (HAMK) student ID to activate the Windows license.
 
-## Step 1 How to update Windows 11 license from home to education 
+## Step 1: How to update Windows 11 license from home to education 
 
 ### Backup Windows license
 * Start Powershell or Command Prompt (CMD) 
@@ -28,7 +28,7 @@ Find Windows 11
 Windows license update will end in strange error THAT IS A NORMAL MICROSOFT WAY TO SAY **“JOB WELL DONE”**. 
 Restart your computer and Windows will activate new license in 1-3 minutes. 
 
-## Step 2 Activate Hyper-V 
+## Step 2: Activate Hyper-V 
 
 ### TMP / Enabling Virtualization in BIOS/UEFI
 - [How to enable virtualization? ](https://www.isumsoft.com/computer/enable-virtualization-technology-vt-x-in-bios-or-uefi.html) <br>
