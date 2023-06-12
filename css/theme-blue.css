@@ -64,7 +64,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #D7AFFF !important;
+    border-color: #7300F0 !important;
 }
 
 .btn-primary {
@@ -74,7 +74,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #D7AFFF;
+    background-color: #7300F0;
 }
 
 .btn-primary:hover,
