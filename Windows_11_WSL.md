@@ -127,13 +127,13 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 wsl --install
 ```
 
-*Update WSL kernel*
+**Update WSL kernel**
 ```
 # WSL kernel updates
 wsl --update
 ```
 
-*Reinstall Ubuntu, Debian and Docker images.* THIS WILL RESULT IN LOST DATA if you have not save data on your host machine!
+**Reinstall Ubuntu, Debian and Docker images.** THIS WILL RESULT IN LOST DATA if you have not save data on your host machine!
 ```
 Stop-Process -Name "Docker Desktop" -Force
 wsl --unregister Ubuntu-20.04
@@ -149,7 +149,7 @@ wsl -d Ubuntu-20.04 -u root bash -c 'apt update ; apt upgrade -y'
 wsl --setdefault Ubuntu-20.04
 ```
 
-*Convert WSL 1 to WSL 2*
+**Convert WSL 1 to WSL 2**
 ```
 # List all installed Ubuntu WSL intance
 wsl --list --verbose
