@@ -10,9 +10,9 @@ The following guidelines utilize the **[brew](https://brew.sh/) package manager*
 * Command Line Tools (CLT) for Xcode (from xcode-select --install or https://developer.apple.com/download/all/) or Xcode 3
 * Terminal emulator
 
-#### Open a Terminal by clicking the Spotlight (magnifying glass) icon in the menu bar or press Command-Space bar
+> Open a Terminal by clicking the [Spotlight](https://support.apple.com/guide/mac-help/search-with-spotlight-mchlp1008/mac) (magnifying glass) icon in the menu bar or press Command-Space bar
 
-#### Install needed development environment components
+**Install the required development environment components**
 ```
 xcode-select --install
 ```
