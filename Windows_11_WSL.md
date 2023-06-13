@@ -119,7 +119,8 @@ Install-WindowsUpdate
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 
-### [Hyper-V still not working? Jump to "Hyper-V still not working?"](#hyper-v-still-not-working) otherwise, move on with WSL install
+### [Hyper-V still not working? Jump to "Hyper-V still not working?"](#hyper-v-still-not-working) 
+### Otherwise, move on with WSL install
 
 ```
 # Let's check that WSL is installed
