@@ -1,4 +1,4 @@
-# Windows Subsystem for Linux (WSL)
+# WSL and Docker
 
 Windows Subsystem for Linux (WSL) is a feature of Windows that allows developers to run a Linux environment without the need for a separate virtual machine or dual booting. We are using WSL 2 in our courses.
 
