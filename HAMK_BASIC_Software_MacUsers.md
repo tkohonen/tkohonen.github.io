@@ -10,19 +10,19 @@ The following guidelines utilize the **[brew](https://brew.sh/) package manager*
 * Command Line Tools (CLT) for Xcode (from xcode-select --install or https://developer.apple.com/download/all/) or Xcode 3
 * Terminal emulator
 
-> Open a Terminal by clicking the [Spotlight](https://support.apple.com/guide/mac-help/search-with-spotlight-mchlp1008/mac) (magnifying glass) icon in the menu bar or press **Command-Space bar**
-> Install the required development environment components
+Open a Terminal by clicking the [Spotlight](https://support.apple.com/guide/mac-help/search-with-spotlight-mchlp1008/mac) (magnifying glass) icon in the menu bar or press **Command-Space bar**
+Install the required development environment components
 
 ```
 xcode-select --install
 ```
-> Install Brew package manager
+Install Brew package manager
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-> Under "==> Next steps:" Read and copy tree lines of code to terminal and execute it. Here are the examples
+Under "==> Next steps:" Read and copy tree lines of code to terminal and execute it. Here are the examples
 
 ```
 echo '# Set PATH, MANPATH, etc., for Homebrew.' >> /Users/$USER/.zprofile
