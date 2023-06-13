@@ -1,5 +1,8 @@
+# Windows Subsystem for Linux (WSL)
 
-## Step 1: How to install WSL2 to your computer (on Windows 11)
+Windows Subsystem for Linux (WSL) is a feature of Windows that allows developers to run a Linux environment without the need for a separate virtual machine or dual booting. We are using WSL 2 in our courses.
+
+## Step 1: How to install WSL 2 to your computer (on Windows 11)
 
 ### Installation Process (with PowerShell)
 * Start Powershell with Administrator rights (Run as Administrator)
