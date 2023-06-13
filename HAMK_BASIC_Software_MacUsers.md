@@ -32,7 +32,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 ## Step 2: Programs/Apps Installation using Brew
-### The list of apss that you are going to install is as below: <br>
+### The list of applications that you are going to install <br>
 Vscode, vmware-horizon-client, disk-inventory, Git, Github, obs, Vmware-fusion, Google Drive, Google Chrome, UTM virtualization software, Teams, Cyberduck, Docker,  Zoom and Displaylink USB dock drivers.
 
 ### To install the above-mentioned programs run the following script
