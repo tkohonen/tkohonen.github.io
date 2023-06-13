@@ -76,7 +76,7 @@ Add-Content $home\.wslconfig $contentToAdd
 notepad++ $home\.wslconfig 
 ```
 
-# Step 2: How to backup WSL and remove it from the machine to save space
+## Step 2: How to backup WSL and remove it from the machine to save space
 
 ### Export and import a Ubuntu distribution to a TAR file
 
