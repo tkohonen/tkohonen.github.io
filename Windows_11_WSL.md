@@ -6,14 +6,11 @@
 
 * WSL will be installed to your computer and in the default setting it will download latest Ubuntu
 
-´´´
-testing
-´´´
-
 ```
 wsl --install
 ```
-> If you already have WSL installed on your computer, you should make sure that it is updated. Use the command below:
+> If you already have WSL installed on your computer, you should make sure that it is updated. 
+Use the command below:
 ```
 wsl --update
 ```
