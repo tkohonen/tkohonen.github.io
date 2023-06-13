@@ -5,7 +5,6 @@
 * Start Powershell with Administrator rights (Run as Administrator)
 
 * WSL will be installed to your computer and in the default setting it will download latest Ubuntu
-> If you already have wsl installed you should make sure that it is updated. Use command wsl --update to update it.
 
 ´´´
 testing
@@ -14,6 +13,11 @@ testing
 ```
 wsl --install
 ```
+> If you already have WSL installed on your computer, you should make sure that it is updated. Use the command below:
+```
+wsl --update
+```
+
 ![Installing WSL](assets/wslupdate.png "WSL --install")
 
 
