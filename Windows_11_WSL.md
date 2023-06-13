@@ -1,11 +1,15 @@
 
-## How to install WSL2 to your computer  (Windows 11) ?
+## How to install WSL2 to your computer (on Windows 11)
 
 ### Installation Process (with PowerShell)
 * Start Powershell with Administrator rights (Run as Administrator)
 
 * WSL will be installed to your computer and in the default setting it will download latest Ubuntu
 > If you already have wsl installed you should make sure that it is updated. Use command wsl --update to update it.
+
+´´´
+testing
+´´´
 
 ```
 wsl --install
