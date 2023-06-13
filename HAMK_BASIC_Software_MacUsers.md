@@ -98,7 +98,9 @@ You need to configure Git by providing your full name and email address. Use the
 
 ***Congratulations, you have installed most of the required applications that you need while studying at HAMK. Over time, you will need to install additional applications.***
 
-## All done! Here are some recommended apps for faster multitasking.
+## All completed!
+
+### Here are some recommended apps for faster multitasking.
 
 #### Mac Windows manager / Windows snaping tool
 * [https://rectangleapp.com/](https://rectangleapp.com/)
