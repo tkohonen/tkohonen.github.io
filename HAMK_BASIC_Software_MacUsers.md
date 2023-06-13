@@ -11,6 +11,7 @@ The following guidelines utilize the **[brew](https://brew.sh/) package manager*
 * Terminal emulator
 
 Open a Terminal by clicking the [Spotlight](https://support.apple.com/guide/mac-help/search-with-spotlight-mchlp1008/mac) (magnifying glass) icon in the menu bar or press **Command-Space bar** and type: "Terminal"
+
 Install the required development environment components
 
 ```
