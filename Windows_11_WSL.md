@@ -1,5 +1,5 @@
 
-## How to install WSL2 to your computer (on Windows 11)
+## Step 1: How to install WSL2 to your computer (on Windows 11)
 
 ### Installation Process (with PowerShell)
 * Start Powershell with Administrator rights (Run as Administrator)
@@ -79,7 +79,7 @@ Add-Content $home\.wslconfig $contentToAdd
 notepad++ $home\.wslconfig 
 ```
 
-# How to backup WSL and remove it from the machine to save space
+# Step 2: How to backup WSL and remove it from the machine to save space
 
 ### Export and import a Ubuntu distribution to a TAR file
 
@@ -105,7 +105,7 @@ wsl --unregister Ubuntu-20.04
 wsl --unregister Debian
 ```
 
-# Problem Solving
+## Problem Solving
 Update Windows computer and WSL. Start Powershell with Administrator rights as many times is needed. Go through repairs in order and test regularly.
 
 ```
@@ -164,7 +164,7 @@ wsl --set-default-version 2
 ![WSL1to2](assets/WSL_WSL1to2.png "WSL1to2")
 
 
-#### Hyper-V still not working?
+### Hyper-V still not working?
 
 Forcing Hyper-v to start using Windows bootloader. 
 
