@@ -431,13 +431,13 @@ span.projectTitle {
     text-align: right;
 }
 
-div.footer-logo {
+
+.footer-logo img {
     text-align: left;
     display: inline;
     width: 50%;
     height: auto;
     padding: 15px;
-
 }
 
 .footerMeta {
