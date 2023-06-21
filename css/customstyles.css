@@ -430,7 +430,7 @@ span.projectTitle {
     text-align: right;
 }
 
-.footer-logo {
+div.footer-logo {
     text-align: left;
     display: inline;
     width: 50%;
