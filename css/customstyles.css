@@ -430,6 +430,15 @@ span.projectTitle {
     text-align: right;
 }
 
+.footer-logo {
+    text-align: left;
+    display: inline;
+    width: 50%;
+    height: auto;
+    padding: 15px;
+
+}
+
 .footerMeta {
     background-color: whitesmoke;
     padding: 10px;
