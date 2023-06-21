@@ -433,9 +433,9 @@ span.projectTitle {
 
 
 .footer-logo img {
-    text-align: left;
+    float: left;
     display: inline;
-    width: 50%;
+    width: 200px;
     height: auto;
     padding: 15px;
 }
