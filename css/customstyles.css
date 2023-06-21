@@ -437,7 +437,7 @@ span.projectTitle {
     display: inline;
     width: 200px;
     height: auto;
-    padding: 15px;
+    padding: 0px 0px 15px;
 }
 
 .footerMeta {
